@@ -12,6 +12,10 @@
   .fi-header .fi-header-heading {
     @apply pb-2 text-xl overflow-ellipsis whitespace-nowrap overflow-hidden leading-none;
   }
+
+  .fi-header > .flex {
+    @apply md:!mt-0;
+  }
 }
 
 .is-sticky.sticky-theme-default {
